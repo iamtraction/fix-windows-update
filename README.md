@@ -7,6 +7,8 @@ update, being corrupted. This prevents Windows Update from updating.
 
 ## Usage
 
+Close Settings app or Windows Update Control Panel window.
+
 [Right-Click](https://raw.github.com/k3rn31p4nic/fix-windows-update/master/FixWindowsUpdate.ps1)
 here and click **Save Link As...** and save it as `FixWindowsUpdate.ps1`.
 
@@ -18,3 +20,5 @@ cd %USERPROFILE%\Downloads
 # Now, run the fix script
 PowerShell -ExecutionPolicy Unrestricted .\FixWindowsUpdate.ps1
 ```
+
+Run Windows Update again.
